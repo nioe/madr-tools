@@ -1,3 +1,13 @@
 # IntelliJ
 *.iml
 .idea
+
+# Project specific
+dist
+test-project
+
+# Packed artifacts
+madr-tools-*.tgz
+
+# node / npm
+node_modules
