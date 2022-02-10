@@ -4,12 +4,13 @@
   "description": "Node.js CLI to to create and manage Markdown Architecture Decision Records (MADR)",
   "main": "dist/cli.js",
   "files": [
-    "dist"
+    "dist",
+    "assets"
   ],
   "scripts": {
+    "prepare": "husky install",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "madr": "./dist/cli.js"
   },
   "dependencies": {
+    "chalk": "4.1.2",
     "madr": "2.1.2",
     "yargs": "17.3.1"
   },
