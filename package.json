@@ -1,0 +1,29 @@
+{
+  "name": "madr-tools",
+  "version": "0.0.0",
+  "description": "Node.js CLI to to create and manage Markdown Architecture Decision Records (MADR)",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nioe/adr-tools.git"
+  },
+  "keywords": [
+    "adr",
+    "madr",
+    "cli",
+    "architecture",
+    "decision",
+    "documentation",
+    "docs",
+    "markdown"
+  ],
+  "author": "Nicolas Oeschger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nioe/adr-tools/issues"
+  },
+  "homepage": "https://github.com/nioe/adr-tools#readme"
+}
