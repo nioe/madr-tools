@@ -16,4 +16,4 @@ export interface Logger {
   error: LoggerFunction;
 }
 
-export type LoggerFunction = (message?: any, ...optionalParams: Array<any>) => void;
+export type LoggerFunction = (message?: unknown, ...optionalParams: Array<unknown>) => void;

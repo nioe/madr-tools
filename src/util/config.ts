@@ -1,5 +1,5 @@
-import {resolve} from 'path';
 import {existsSync, readFileSync, writeFileSync} from 'fs';
+import {resolve} from 'path';
 
 export interface MadrToolsConfig {
   madrDirectory: string;

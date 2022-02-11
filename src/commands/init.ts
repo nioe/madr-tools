@@ -1,17 +1,17 @@
 // noinspection JSUnusedGlobalSymbols
 
-import type {Arguments, CommandBuilder} from 'yargs';
 import {copyFileSync, existsSync, mkdirSync, readdirSync} from 'fs';
 import {join, resolve} from 'path';
-import {logger} from '../util/logger';
+import type {Arguments, CommandBuilder} from 'yargs';
 import {defaultConfig, saveConfig} from '../util/config';
+import {logger} from '../util/logger';
 
 type Options = {
   path: string;
 };
 
-export const command: string = 'init [path]';
-export const desc: string = 'Initialize the MADR directory under docs/decisions or the given [path]';
+export const command = 'init [path]';
+export const desc = 'Initialize the MADR directory under docs/decisions or the given [path]';
 
 export const builder: CommandBuilder<Options, Options> = (yargs) =>
   yargs.positional('path', {
