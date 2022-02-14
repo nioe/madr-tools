@@ -1,5 +1,15 @@
 # Changelog
 
+### [0.0.2](https://github.com/nioe/adr-tools/compare/v0.0.1...v0.0.2) (2022-02-14)
+
+### 🔄 CI/CD
+
+- Only run build script on branches (not tags) ([50c877e](https://github.com/nioe/adr-tools/commit/50c877ee59258580d071fc8f8ee20af096dc662d))
+
+### 📖 Documentation
+
+- Fix typos in readme ([2ce16b3](https://github.com/nioe/adr-tools/commit/2ce16b3c965e01f02591dfb269303866775f6491))
+
 ### 0.0.1 (2022-02-14)
 
 ### 🚀 Features
