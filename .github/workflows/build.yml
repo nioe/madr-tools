@@ -1,5 +1,9 @@
 name: build-and-publish
-on: [push]
+on:
+  push:
+    branches:
+      - main
+      - feature/**
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,6 +19,7 @@ jobs:
       - name: Run Build Script
         run: npm run build
       - name: Publish if version has been updated
+        if: ${{ github.ref_name == 'main' }}
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
