@@ -4,10 +4,12 @@ import {configFileName} from '../constants/constants';
 
 export interface MadrToolsConfig {
   madrDirectory: string;
+  indexFileName: string;
 }
 
 export const defaultConfig: MadrToolsConfig = {
   madrDirectory: 'docs/decisions',
+  indexFileName: 'index.md',
 };
 
 export const getConfig: (options?: {noErrorOnMissingConfig?: boolean; configPath?: string}) => MadrToolsConfig = ({

@@ -6,6 +6,7 @@ import type {Arguments, CommandBuilder} from 'yargs';
 import {templateFileName} from '../constants/constants';
 import {defaultConfig, getAbsoluteMadrDirectoryFromConfig} from '../util/config';
 import {logger} from '../util/logger';
+import {handler as index} from './index';
 
 type Options = {
   title: string;
@@ -31,7 +32,11 @@ export const handler = ({title}: Arguments<Options>): void => {
       process.exit(1);
     }
 
-    const newMadrFileName = `${getNextId(madrDirectory)}-${title.toLowerCase().replace(/\s+/g, '-')}.md`;
+    const newMadrFileName = `${getNextId(madrDirectory)}-${title
+      .toLowerCase()
+      .replace(/[^0-9a-z\s\-_]/g, '')
+      .replace(/[\s_]+/g, '-')
+      .replace(/-{2,}/g, '-')}.md`;
 
     writeFileSync(
       join(madrDirectory, newMadrFileName),
@@ -39,8 +44,10 @@ export const handler = ({title}: Arguments<Options>): void => {
       {encoding: 'utf-8'},
     );
 
+    // Run index command;
+    index();
+
     logger.ok(`Successfully created MADR file ${newMadrFileName}. You can start editing it now.`);
-    process.exit(0);
   } catch (error) {
     logger.error(error);
     process.exit(1);
