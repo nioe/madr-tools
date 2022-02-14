@@ -30,11 +30,13 @@ Run the following command within the root directory of your repository to initia
 npx madr init [optional path] [-i readme.md]
 ```
 
-By default, the MADR will be created under `docs/decions`. You can specify a custom directory by providing the relative path as
-first positional arguments. By default, the overview over all MADRs is written to a file called `index.md` as the
-[official MADR Documentation](https://github.com/adr/madr#create-a-new-adr) suggests. However, when watching the directory within
-a web-based Git repo (e.g. GitHub or GitLab), it will automatically render the `readme.md` file within the directory. Therefore,
-it's possible to use `readme.md` instead of `index.md` by setting the `-i` option to make use of this feature.
+By default, the MADR directory will be created under `docs/decisions`. You can specify a custom directory by providing the
+relative path as first positional argument.  
+Furthermore, the overview over all MADRs is written to a file called `index.md` as
+the [official MADR Documentation](https://github.com/adr/madr#create-a-new-adr) suggests. However, when watching the directory
+within a web-based Git repo (e.g. GitHub or GitLab), it will automatically render the `readme.md` file within the directory.
+Therefore, it's possible to use `readme.md` instead of `index.md` as the file name by setting the `-i readme.md` option to make
+use of this feature.
 
 ### Creating a new MADR
 
