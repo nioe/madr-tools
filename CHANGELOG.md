@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.0](https://github.com/nioe/adr-tools/compare/v0.0.2...v1.0.0) (2022-02-15)
+
+### 📖 Documentation
+
+- Fix typos ([97702ab](https://github.com/nioe/adr-tools/commit/97702ab1f238432f95bf9ddf223fe2a6c9eefab6))
+
 ### [0.0.2](https://github.com/nioe/adr-tools/compare/v0.0.1...v0.0.2) (2022-02-14)
 
 ### 🔄 CI/CD
