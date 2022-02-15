@@ -1,6 +1,6 @@
 # madr-tools
 
-Node.js CLI tools to help you create and mange [Markdown Architecture Decision Records (MADR)](https://github.com/adr/madr).  
+Node.js CLI tools to help you create and mange [Markdown Architectural Decision Records (MADR)](https://github.com/adr/madr).  
 The famous [ADR Tools](https://github.com/npryce/adr-tools) have been taken as a role model for this Node.js port.
 
 ## Installation
@@ -31,12 +31,11 @@ npx madr init [optional path] [-i readme.md]
 ```
 
 By default, the MADR directory will be created under `docs/decisions`. You can specify a custom directory by providing the
-relative path as first positional argument.  
-Furthermore, the overview over all MADRs is written to a file called `index.md` as
+relative path as the first positional argument.  
+Furthermore, the overview over all MADRs is written to a file called `index.md` by default as
 the [official MADR Documentation](https://github.com/adr/madr#create-a-new-adr) suggests. However, when watching the directory
 within a web-based Git repo (e.g. GitHub or GitLab), it will automatically render the `readme.md` file within the directory.
-Therefore, it's possible to use `readme.md` instead of `index.md` as the file name by setting the `-i readme.md` option to make
-use of this feature.
+Therefore, it's possible to use `readme.md` instead of `index.md` as the file name by setting the `-i readme.md` option.
 
 ### Creating a new MADR
 
