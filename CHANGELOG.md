@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.1.0](https://github.com/nioe/madr-tools/compare/madr-tools-v1.0.0...madr-tools-v1.1.0) (2024-07-05)
+
+
+### 🚀 Features
+
+* Add 'new' command to create new MADR files based on tempalte ([1c7dfca](https://github.com/nioe/madr-tools/commit/1c7dfcaf5ce8cc4b43f0802d2296891df4b93c9e))
+* Add first version of init command ([5530432](https://github.com/nioe/madr-tools/commit/5530432c5df2f2f3a30e9fa75f46ddf1c1118115))
+* Add tools and cli skeleton ([4745d98](https://github.com/nioe/madr-tools/commit/4745d98a2d4d14afc70b2c62c8ff2335efc8dcbd))
+* Introduce command to create and update index file ([726827b](https://github.com/nioe/madr-tools/commit/726827b0dc95058232dec0949ddfad4342ab3f51))
+
+
+### 🐛 Bug Fixes
+
+* Make finding correct title work on Windows with CRLF ([01e356c](https://github.com/nioe/madr-tools/commit/01e356c1979aec6a610c8621ae51938695dbc34c))
+
+
+### 📖 Documentation
+
+* Fix typos ([97702ab](https://github.com/nioe/madr-tools/commit/97702ab1f238432f95bf9ddf223fe2a6c9eefab6))
+* Fix typos in readme ([2ce16b3](https://github.com/nioe/madr-tools/commit/2ce16b3c965e01f02591dfb269303866775f6491))
+* Improve readme ([9eb6ba2](https://github.com/nioe/madr-tools/commit/9eb6ba2b89e8f4b27be2549ac3020cdff4059f2e))
+
 ## [1.0.0](https://github.com/nioe/adr-tools/compare/v0.0.2...v1.0.0) (2022-02-15)
 
 ### 📖 Documentation
