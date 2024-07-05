@@ -56,6 +56,6 @@ const getLinks: (madrDirectory: string) => Array<string> = (madrDirectory) =>
 const getTitleText: (madrFile: string) => string = (madrFile) =>
   (
     readFileSync(madrFile, {encoding: 'utf-8'})
-      .split('\n')
+      .split(/\r?\n/)
       .find((line) => /^# .*$/.test(line)) || ''
   ).substring(2);
