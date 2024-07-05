@@ -6,7 +6,64 @@
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
-      "prerelease": false
+      "prerelease": false,
+      "changelog-sections": [
+        {
+          "type": "feat",
+          "section": "🚀 Features",
+          "hidden": false
+        },
+        {
+          "type": "fix",
+          "section": "🐛 Bug Fixes",
+          "hidden": false
+        },
+        {
+          "type": "perf",
+          "section": "↗️ Performance Improvements",
+          "hidden": false
+        },
+        {
+          "type": "revert",
+          "section": "🔙 Reverts",
+          "hidden": false
+        },
+        {
+          "type": "docs",
+          "section": "📖 Documentation",
+          "hidden": false
+        },
+        {
+          "type": "style",
+          "section": "💅 Styles",
+          "hidden": false
+        },
+        {
+          "type": "chore",
+          "section": "🧹 Chores",
+          "hidden": true
+        },
+        {
+          "type": "refactor",
+          "section": "🛠 Refactorings",
+          "hidden": false
+        },
+        {
+          "type": "test",
+          "section": "✅ Tests",
+          "hidden": false
+        },
+        {
+          "type": "build",
+          "section": "📦 Build System & Dependencies",
+          "hidden": false
+        },
+        {
+          "type": "ci",
+          "section": "🔄 CI/CD",
+          "hidden": true
+        }
+      ]
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
