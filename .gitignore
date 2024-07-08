@@ -12,5 +12,9 @@ madr-tools-*.tgz
 # node / npm
 node_modules
 
+# Testing the CLI
+.madrrc.json
+test-docs
+
 # OS
 .DS_Store
