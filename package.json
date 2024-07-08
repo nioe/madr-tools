@@ -1,6 +1,6 @@
 {
   "name": "madr-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js CLI to to create and manage Markdown Architectural Decision Records (MADR)",
   "main": "dist/cli.js",
   "files": [
