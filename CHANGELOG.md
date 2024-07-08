@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1](https://github.com/nioe/madr-tools/compare/v1.0.0...v1.0.1) (2024-07-08)
+
+
+### 🐛 Bug Fixes
+
+* Make finding correct title work on Windows with CRLF ([01e356c](https://github.com/nioe/madr-tools/commit/01e356c1979aec6a610c8621ae51938695dbc34c))
+
+
+### 📦 Build System & Dependencies
+
+* Update dependencies ([383396f](https://github.com/nioe/madr-tools/commit/383396fd6145f137c9bea3c810299ee6eb72d33d))
+
 ## [1.0.0](https://github.com/nioe/adr-tools/compare/v0.0.2...v1.0.0) (2022-02-15)
 
 ### 📖 Documentation
