@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/nioe/madr-tools/compare/v1.0.1...v1.1.0) (2024-07-08)
+
+
+### 🚀 Features
+
+* Bundle dependencies to make CLI work without installing additional packages ([0cb0326](https://github.com/nioe/madr-tools/commit/0cb03264e7deb28550fffdb5af718d128ca0bfe2))
+
 ## [1.0.1](https://github.com/nioe/madr-tools/compare/v1.0.0...v1.0.1) (2024-07-08)
 
 
