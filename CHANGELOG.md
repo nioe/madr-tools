@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.1](https://github.com/nioe/madr-tools/compare/v1.1.0...v1.1.1) (2024-07-18)
+
+
+### 📦 Build System & Dependencies
+
+* Add `dependabot` ([b395524](https://github.com/nioe/madr-tools/commit/b395524fc4a328c9ce3b3400a3eaef3f3eecbd27))
+* **deps-dev:** Bump @types/node from 20.14.10 to 20.14.11 ([ed3c1ff](https://github.com/nioe/madr-tools/commit/ed3c1ff226b9641286892ed14abcfe4e73211da6))
+* **deps-dev:** Bump @typescript-eslint/eslint-plugin from 7.15.0 to 7.16.1 ([81e2565](https://github.com/nioe/madr-tools/commit/81e2565e22eafb2a015201920d581aaabf514f20))
+* **deps-dev:** Bump @typescript-eslint/parser from 7.15.0 to 7.16.1 ([e92968a](https://github.com/nioe/madr-tools/commit/e92968a1eab29601ab269a0c0685ffcffa06d7e7))
+* **deps-dev:** Bump eslint-plugin-prettier from 5.1.3 to 5.2.1 ([1482e0a](https://github.com/nioe/madr-tools/commit/1482e0a0dc9ae9158db778fb1300239379c40027))
+* **deps-dev:** Bump rimraf from 5.0.8 to 6.0.1 ([7496af3](https://github.com/nioe/madr-tools/commit/7496af325ea2e399e405f76986506bb452e2e8e5))
+* Enable tree shaking ([9464623](https://github.com/nioe/madr-tools/commit/946462320d1da69f0554699b47679e4bfe81d349))
+
 ## [1.1.0](https://github.com/nioe/madr-tools/compare/v1.0.1...v1.1.0) (2024-07-08)
 
 
