@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "build": "rimraf dist && esbuild ./src/cli.ts ./src/commands/*.ts --bundle --platform=node --outdir=./dist --format=cjs",
+    "build": "rimraf dist && esbuild ./src/cli.ts ./src/commands/*.ts --bundle --platform=node --outdir=./dist --format=cjs --tree-shaking=true",
     "lint": "tsc && eslint src/**"
   },
   "repository": {
