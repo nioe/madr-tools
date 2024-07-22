@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/nioe/madr-tools/compare/v1.1.1...v1.1.2) (2024-07-22)
+
+
+### 📦 Build System & Dependencies
+
+* **deps-dev:** Bump husky from 9.0.11 to 9.1.1 ([e51420f](https://github.com/nioe/madr-tools/commit/e51420f15424f48858e2421438f1a4bf635d870d))
+* **deps-dev:** Bump prettier from 3.3.2 to 3.3.3 ([028545a](https://github.com/nioe/madr-tools/commit/028545af07b2cbfcacb338ccac656ed995ebd457))
+
 ## [1.1.1](https://github.com/nioe/madr-tools/compare/v1.1.0...v1.1.1) (2024-07-18)
 
 
