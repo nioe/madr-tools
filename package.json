@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nioe/adr-tools.git"
+    "url": "git+https://github.com/nioe/madr-tools.git"
   },
   "keywords": [
     "adr",
@@ -31,9 +31,9 @@
   "author": "Nicolas Oeschger",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nioe/adr-tools/issues"
+    "url": "https://github.com/nioe/madr-tools/issues"
   },
-  "homepage": "https://github.com/nioe/adr-tools#readme",
+  "homepage": "https://github.com/nioe/madr-tools#readme",
   "bin": {
     "madr": "./dist/cli.js"
   },
