@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/nioe/madr-tools/compare/v1.1.2...v1.1.3) (2024-07-26)
+
+
+### 🐛 Bug Fixes
+
+* Update GitHub URL in `package.json` to `madr-tools` ([b4174b1](https://github.com/nioe/madr-tools/commit/b4174b1c7717d22a8897cd18fb36d2c5b7a0596e))
+
 ## [1.1.2](https://github.com/nioe/madr-tools/compare/v1.1.1...v1.1.2) (2024-07-22)
 
 
