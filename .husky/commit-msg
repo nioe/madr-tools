@@ -1,5 +1,1 @@
-#!/bin/sh
-# Commented this line since it seems to produce an infinite loop in husky@9.1.1
-# . "$(dirname "$0")/h"
-
 commitlint --edit $1
