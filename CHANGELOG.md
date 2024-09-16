@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/nioe/madr-tools/compare/v1.1.3...v1.2.0) (2024-09-16)
+
+
+### 🚀 Features
+
+* Change built package from CJS to ESM ([fbc5cfe](https://github.com/nioe/madr-tools/commit/fbc5cfe7f86f284a11066e4cebd6f9e3f40375c7))
+
 ## [1.1.3](https://github.com/nioe/madr-tools/compare/v1.1.2...v1.1.3) (2024-07-26)
 
 
