@@ -1,6 +1,6 @@
 # madr-tools
 
-Node.js CLI tools to help you create and mange [Markdown Architectural Decision Records (MADR)](https://github.com/adr/madr).  
+Node.js CLI tools to help you create and manage [Markdown Architectural Decision Records (MADR)](https://github.com/adr/madr).  
 The famous [ADR Tools](https://github.com/npryce/adr-tools) have been taken as a role model for this Node.js port.
 
 ## Installation
@@ -69,7 +69,7 @@ Every contribution to this project is more than welcome. Just follow these rules
 - The repo uses [_Conventional Commits_](https://www.conventionalcommits.org/) to create semantic versions
 - The codebase should automatically be reformatted using [_Prettier_](https://prettier.io/) in a pre-commit hook. Therefore, it
   should be pretty hard to commit something which is not well formatted... 😅
-- Create a PR once you finished your feature
+- Create a PR once you have finished your feature
 
 ### Local development
 
@@ -77,4 +77,4 @@ Every contribution to this project is more than welcome. Just follow these rules
 - Install the dependencies `npm i`
 - Run the build `npm run build`
 - Locally link the bin script `npm link`
-- Afterwards you should be able to run `madr --help` in your favorite console
+- Afterwards, you should be able to run `madr --help` in your favorite console
