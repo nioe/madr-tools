@@ -12,5 +12,5 @@ yargs(hideBin(process.argv))
   .command([indexCommand, initCommand, newCommand] as Array<CommandModule>)
   .demandCommand()
   .strict()
-  .version('1.2.2') // x-release-please-version
+  .version('1.2.3') // x-release-please-version
   .alias({h: 'help', v: 'version'}).argv;
