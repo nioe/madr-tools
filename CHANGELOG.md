@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/nioe/madr-tools/compare/v1.2.2...v1.2.3) (2024-12-09)
+
+
+### 📦 Build System & Dependencies
+
+* **deps:** Update dependencies ([5edc3c4](https://github.com/nioe/madr-tools/commit/5edc3c461ab4d61995f49f5fa088e03f4fbbe9ba))
+
 ## [1.2.2](https://github.com/nioe/madr-tools/compare/v1.2.1...v1.2.2) (2024-11-07)
 
 
