@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.4](https://github.com/nioe/madr-tools/compare/v1.2.3...v1.2.4) (2024-12-16)
+
+
+### 📦 Build System & Dependencies
+
+* **deps-dev:** Bump @eslint/js from 9.16.0 to 9.17.0 ([263c208](https://github.com/nioe/madr-tools/commit/263c20894a8715767d796646d7a439437b55c292))
+* **deps-dev:** Bump @types/node from 22.10.1 to 22.10.2 ([754c9ed](https://github.com/nioe/madr-tools/commit/754c9ed0fdb3b55291311bf637ab8f2cccb3d07b))
+* **deps-dev:** Bump @typescript-eslint/eslint-plugin from 8.17.0 to 8.18.0 ([8d64160](https://github.com/nioe/madr-tools/commit/8d64160c63ed7a586f6050149da62f3307e6252a))
+* **deps-dev:** Bump @typescript-eslint/parser from 8.17.0 to 8.18.0 ([4b08cf3](https://github.com/nioe/madr-tools/commit/4b08cf3e8427384c12cb16ad748ee5ba474ca350))
+* **deps-dev:** Bump typescript-eslint from 8.17.0 to 8.18.0 ([6a4ec8f](https://github.com/nioe/madr-tools/commit/6a4ec8f4d9b0897ce418a72bc20e7ed3c0b607c5))
+
 ## [1.2.3](https://github.com/nioe/madr-tools/compare/v1.2.2...v1.2.3) (2024-12-09)
 
 
