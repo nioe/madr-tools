@@ -1,11 +1,15 @@
 // noinspection JSUnusedGlobalSymbols
 
 import {copyFileSync, existsSync, mkdirSync, readdirSync} from 'fs';
-import {join, resolve} from 'path';
+import {dirname, join, resolve} from 'path';
+import {fileURLToPath} from 'url';
 import type {Arguments, CommandBuilder} from 'yargs';
 import {templateFileName} from '../constants/constants';
 import {defaultConfig, saveConfig} from '../util/config';
 import {logger} from '../util/logger';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 type Options = {
   path: string;
@@ -32,7 +36,7 @@ export const builder: CommandBuilder<Options, Options> = (yargs) =>
 export const handler = ({path: madrDirectory, index: indexFileName}: Arguments<Options>): void => {
   try {
     const absoluteMadrPath = resolve(process.cwd(), madrDirectory);
-    const assetsPath = resolve(__dirname, '../../assets');
+    const assetsPath = resolve(__dirname, '../assets');
 
     if (existsSync(absoluteMadrPath)) {
       if (existsSync(absoluteMadrPath) && readdirSync(absoluteMadrPath).length) {
