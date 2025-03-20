@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2022",
-    "module": "commonjs",
+    "module": "ESNext",
     "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -10,6 +10,7 @@
     "importHelpers": false,
     "allowJs": true,
     "resolveJsonModule": true,
+    "moduleResolution": "node",
     "moduleDetection": "force",
     "noUncheckedIndexedAccess": true,
     "noEmit": true,
