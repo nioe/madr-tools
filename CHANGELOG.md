@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.2.5](https://github.com/nioe/madr-tools/compare/v1.2.4...v1.2.5) (2025-03-20)
+
+
+### 🐛 Bug Fixes
+
+* Fix `__dirname` issue with ESModule (fixes [#140](https://github.com/nioe/madr-tools/issues/140)) ([607452f](https://github.com/nioe/madr-tools/commit/607452f743ab1ae4f54a681145224762a56f714b))
+
+
+### 📦 Build System & Dependencies
+
+* **deps-dev:** Bump @typescript-eslint/parser from 8.18.0 to 8.26.1 ([1fada8f](https://github.com/nioe/madr-tools/commit/1fada8f57fe06f0527ecb7dfbec3216ca23d6aab))
+* **deps-dev:** Bump esbuild from 0.24.0 to 0.25.1 ([c4cd1d3](https://github.com/nioe/madr-tools/commit/c4cd1d3986e051d57734088d292e58e8b607d07a))
+* **deps-dev:** Bump eslint from 9.16.0 to 9.22.0 ([#134](https://github.com/nioe/madr-tools/issues/134)) ([6721637](https://github.com/nioe/madr-tools/commit/672163798110de5b25cd5f574d97db7e1927c090))
+* **deps-dev:** Bump typescript-eslint from 8.18.0 to 8.26.1 ([6103b2a](https://github.com/nioe/madr-tools/commit/6103b2a2a2b4d0a343a65b02cf34d4327e441c8d))
+* **deps:** Update dependencies ([87948bd](https://github.com/nioe/madr-tools/commit/87948bde007dc33f1e48a6d254ee7b627b905a65))
+
 ## [1.2.4](https://github.com/nioe/madr-tools/compare/v1.2.3...v1.2.4) (2024-12-16)
 
 
