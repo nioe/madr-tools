@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.6](https://github.com/nioe/madr-tools/compare/v1.2.5...v1.2.6) (2025-03-31)
+
+
+### 📦 Build System & Dependencies
+
+* **deps-dev:** Bump @types/node from 22.13.10 to 22.13.14 ([ecae217](https://github.com/nioe/madr-tools/commit/ecae21737ca2290dc379ecb2ea1e3d2f5f111c19))
+
 ## [1.2.5](https://github.com/nioe/madr-tools/compare/v1.2.4...v1.2.5) (2025-03-20)
 
 
