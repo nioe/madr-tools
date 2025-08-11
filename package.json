@@ -48,7 +48,7 @@
     "@types/node": "22.13.14",
     "@types/yargs": "17.0.33",
     "@typescript-eslint/eslint-plugin": "8.27.0",
-    "@typescript-eslint/parser": "8.27.0",
+    "@typescript-eslint/parser": "8.39.0",
     "chalk": "5.4.1",
     "esbuild": "0.25.1",
     "eslint": "9.22.0",
