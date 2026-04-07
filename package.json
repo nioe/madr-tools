@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/nioe/madr-tools#readme",
   "bin": {
-    "madr": "./dist/cli.js"
+    "madr": "dist/cli.js"
   },
   "peerDependencies": {
     "chalk": "^5.3.0",
