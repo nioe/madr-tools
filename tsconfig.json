@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2022",
-    "module": "ESNext",
+    "module": "nodenext",
     "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -10,10 +10,10 @@
     "importHelpers": false,
     "allowJs": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node",
     "moduleDetection": "force",
     "noUncheckedIndexedAccess": true,
     "noEmit": true,
-    "lib": ["es2022"]
+    "lib": ["es2022"],
+    "types": ["node"]
   }
 }
