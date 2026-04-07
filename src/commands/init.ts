@@ -4,9 +4,9 @@ import {copyFileSync, existsSync, mkdirSync, readdirSync} from 'fs';
 import {dirname, join, resolve} from 'path';
 import {fileURLToPath} from 'url';
 import type {Arguments, CommandBuilder} from 'yargs';
-import {templateFileName} from '../constants/constants';
-import {defaultConfig, saveConfig} from '../util/config';
-import {logger} from '../util/logger';
+import {templateFileName} from '../constants/constants.js';
+import {defaultConfig, saveConfig} from '../util/config.js';
+import {logger} from '../util/logger.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);

@@ -1,6 +1,6 @@
 import {existsSync, lstatSync, readFileSync, writeFileSync} from 'fs';
 import {parse, resolve} from 'path';
-import {configFileName} from '../constants/constants';
+import {configFileName} from '../constants/constants.js';
 
 export interface MadrToolsConfig {
   madrDirectory: string;

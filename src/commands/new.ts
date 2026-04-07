@@ -3,10 +3,10 @@
 import {existsSync, readdirSync, readFileSync, writeFileSync} from 'fs';
 import {join, resolve} from 'path';
 import type {Arguments, CommandBuilder} from 'yargs';
-import {templateFileName} from '../constants/constants';
-import {defaultConfig, getAbsoluteMadrDirectoryFromConfig} from '../util/config';
-import {logger} from '../util/logger';
-import {handler as index} from './index';
+import {templateFileName} from '../constants/constants.js';
+import {defaultConfig, getAbsoluteMadrDirectoryFromConfig} from '../util/config.js';
+import {logger} from '../util/logger.js';
+import {handler as index} from './index.js';
 
 type Options = {
   title: string;

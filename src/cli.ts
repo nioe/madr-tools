@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 import yargs from 'yargs/yargs';
 import {hideBin} from 'yargs/helpers';
-import * as indexCommand from './commands/index';
-import * as initCommand from './commands/init';
-import * as newCommand from './commands/new';
+import * as indexCommand from './commands/index.js';
+import * as initCommand from './commands/init.js';
+import * as newCommand from './commands/new.js';
 import {CommandModule} from 'yargs';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-expressions
