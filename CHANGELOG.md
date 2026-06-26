@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.7](https://github.com/nioe/madr-tools/compare/v1.2.6...v1.2.7) (2026-06-26)
+
+
+### 📦 Build System & Dependencies
+
+* **deps-dev:** Bump prettier from 3.8.1 to 3.8.2 ([#254](https://github.com/nioe/madr-tools/issues/254)) ([d7002a5](https://github.com/nioe/madr-tools/commit/d7002a5e5b92fdb92fedfd4ec8398ccf17c7a854))
+
 ## [1.2.6](https://github.com/nioe/madr-tools/compare/v1.2.5...v1.2.6) (2026-04-07)
 
 
